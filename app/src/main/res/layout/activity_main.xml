@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="sans-serif-black"
+        android:lineSpacingExtra="8sp"
+        android:text="About RNGPIT"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="440dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/about1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:justificationMode="inter_word"
+            android:text="Established in 2010 as a Center for Excellence, R. N. G. Patel Institute of Technology [RNGPIT] is recognized by All India Council for Technical Education (AICTE), New Delhi and Gujarat Technological University (GTU), Ahmadabad. "
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/about2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-light"
+            android:justificationMode="inter_word"
+            android:text="The institute is situated near Isroli-Afwa in Bardoli taluka of Surat District, about 4 KMs away from Bardoli Town. "
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/goToNextPageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:text="Show more details of RNGPIT ⏭️" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
